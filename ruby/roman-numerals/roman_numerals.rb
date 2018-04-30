@@ -17,8 +17,6 @@ class Integer
                         when 1
                           ['X', 'V', 'I']
                         end
-      # puts "ten: #{ten}, half: #{half}, unit: #{unit} "
-      # puts "#{number}"
       roman = case number
               when (1..3) then
                 "#{unit}" * number
