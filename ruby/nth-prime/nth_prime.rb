@@ -5,9 +5,9 @@ end
 class Prime
 
   def self.nth(rank_prime)
+    raise ArgumentError if rank_prime < 1
     return 2 if rank_prime == 1
     return 3 if rank_prime == 2
-    raise ArgumentError if rank_prime < 1 || !rank_prime.integer?
     prime_array = [2]
     index = 1
     (3..(rank_prime**2)).each do |integer|
