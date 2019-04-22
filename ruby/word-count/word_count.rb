@@ -6,16 +6,13 @@ class Phrase
   end
 
   def word_count
-    array_words = phrase.split(/[^\d\w\']/)
-    return { phrase => 1 } if array_words.length == 1
-    array_words.reject{ |item| item.size.zero? }
-                .map(&:downcase)
-                .map { |item|  /\'(\w+?)\'/.match(item) ? /\'(\w+?)\'/.match(item)[1] : item }
-                .group_by(&:itself)
-                .each_with_object({}) { |(k, v), hash| hash[k] = v.size }
+    # downcase_words.group_by(&:itself)
+    #               .transform_values { |count| count.size }
+    downcase_words.each_with_object(Hash.new(0)) { |(k, v), hash| hash[k] += 1 }
+  end
+
+  def downcase_words
+    phrase.downcase.scan(/\b[\w']+\b/)
   end
 end
 
-module  BookKeeping
-  VERSION = 1
-end
