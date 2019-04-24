@@ -45,8 +45,8 @@ build-iPhoneSimulator/
 ## specific to Exercism
 /.exercism/
 .solution.json
-# *_test.rb
-# *_test.py
+*_test.rb
+*_test.py
 *.cache
 *.json
 *.pyc
