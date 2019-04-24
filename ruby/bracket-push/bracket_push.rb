@@ -1,14 +1,19 @@
 class Brackets
-  def self.paired?(string_brackets)
-    brackets_stack = []
-    closing_pairs_brackets = { '}' => '{', ']' => '[', ')' => '(' }
-    string_brackets.each_char do |char|
-      if closing_pairs_brackets.value? char
-        brackets_stack << char
-      elsif closing_pairs_brackets.key? char
-        return false unless brackets_stack.pop == closing_pairs_brackets[char]
+  BRACKETS = { '}' => '{', ']' => '[', ')' => '(' }
+  OPENING = BRACKETS.keys
+  CLOSING = BRACKETS.values
+
+  def self.paired?(text)
+    stack = []
+    text.each_char do |char|
+      if CLOSING.include? char
+        stack << char
+      elsif OPENING.include? char
+        open_bracket = stack.pop
+        expected_closing_bracket = BRACKETS[char]
+        return false unless open_bracket == expected_closing_bracket
       end
     end
-    brackets_stack.empty?
+    stack.empty?
   end
 end
