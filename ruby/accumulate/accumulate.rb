@@ -1,9 +1,7 @@
 class Array
-  def accumulate(&block)
-    result = []
-    self.each do |item|
-      result << block.call(item)
+  def accumulate
+    each_with_object([]) do |item, result|
+      result << (yield item)
     end
-    result
   end
 end

@@ -19,17 +19,7 @@ class Alphametics
   end
 
   def self.resolve(puzzle, letters, numbers, result)
-    return result if numbers.size == 1 or letters.size == 1
 
-    letters.each do |letter|
-      numbers.each do |number|
-        return true if is_valid?(puzzle)
-
-        result[letter] = number
-        puzzle.tr(letter, number.to_s)
-        new_numbers = numbers - [number]
-        new_letters = letters - [letter]
-        resolve(puzzle, new_letters, new_numbers, result)
       end
     end
   end
@@ -51,6 +41,7 @@ class Alphametics
   def self.is_valid?(puzzle)
     return false if puzzle.match /[A-Z]/
 
+    puzzle.map { |element| result[element] if element =~ /\w/}
     *operands, summ = puzzle.scan(NUMBER_BOUNDARIES)
     operands.map(&:to_i).inject(&:+) == summ.to_i
   end

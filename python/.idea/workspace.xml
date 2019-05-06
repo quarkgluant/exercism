@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="286eab7e-bd28-4c39-8a6a-8ffa8ea2f934" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ruby/isogram/isogram.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ruby/scrabble-score/scrabble_score.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/accumulate/accumulate.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/accumulate/accumulate.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/alphametics/alphametics.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/alphametics/alphametics.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/difference-of-squares/difference_of_squares.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/difference-of-squares/difference_of_squares.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/flatten-array/flatten_array.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/flatten-array/flatten_array.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/gigasecond/gigasecond.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/gigasecond/gigasecond.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/grains/grains.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/grains/grains.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/hamming/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/hamming/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/hamming/RUNNING_TESTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/hamming/RUNNING_TESTS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/hamming/hamming.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/hamming/hamming.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/hamming/hamming_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/hamming/hamming_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/nucleotide-count/nucleotide_count.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/nucleotide-count/nucleotide_count.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/raindrops/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/raindrops/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/raindrops/raindrops.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/raindrops/raindrops.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/raindrops/raindrops_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/raindrops/raindrops_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ruby/strain/strain.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../ruby/strain/strain.rb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gigasecond/gigasecond.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yacht/yacht_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yacht/yacht.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gigasecond/gigasecond_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="22" selection-end-line="22" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgf-parsing/sgf_parsing_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="70" column="37" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgf-parsing/sgf_parsing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="125" column="92" selection-start-line="125" selection-start-column="92" selection-end-line="125" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protein-translation/protein_translation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PLANETS_PERIOD</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.PLANETS_PERIOD</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hello-world/hello_world.py" />
+        <option value="$PROJECT_DIR$/two-fer/two_fer.py" />
+        <option value="$PROJECT_DIR$/pangram/pangram.py" />
+        <option value="$PROJECT_DIR$/reverse-string/reverse_string.py" />
+        <option value="$PROJECT_DIR$/series/series.py" />
+        <option value="$PROJECT_DIR$/robot-name/robot_name.py" />
+        <option value="$PROJECT_DIR$/high-scores/high_scores.py" />
+        <option value="$PROJECT_DIR$/rna-transcription/rna_transcription.py" />
+        <option value="$PROJECT_DIR$/armstrong-numbers/armstrong_numbers.py" />
+        <option value="$PROJECT_DIR$/sgf-parsing/sgf_parsing.py" />
+        <option value="$PROJECT_DIR$/protein-translation/protein_translation.py" />
+        <option value="$PROJECT_DIR$/leap/leap.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/space-age/space_age.py" />
+        <option value="$PROJECT_DIR$/gigasecond/gigasecond.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/python.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/webResources.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="208" />
+    <option name="y" value="27" />
+    <option name="width" value="1400" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="yacht" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="$USER_HOME$/anaconda3/envs/untitled/bin/python">
+        <option name="mySdkHome" value="$USER_HOME$/anaconda3/envs/untitled/bin/python" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in gigasecond_test.py">
+    <configuration name="Unittests in gigasecond_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gigasecond" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/gigasecond/gigasecond_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in leap_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/leap/leap_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in protein_translation_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/protein-translation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/protein-translation/protein_translation_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in sgf_parsing_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sgf-parsing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/sgf-parsing/sgf_parsing_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in space_age_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/space-age" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/space-age/space_age_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in gigasecond_test.py" />
+        <item itemvalue="Python tests.Unittests in space_age_test.py" />
+        <item itemvalue="Python tests.Unittests in leap_test.py" />
+        <item itemvalue="Python tests.Unittests in protein_translation_test.py" />
+        <item itemvalue="Python tests.Unittests in sgf_parsing_test.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="286eab7e-bd28-4c39-8a6a-8ffa8ea2f934" name="Default Changelist" comment="" />
+      <created>1556617607240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556617607240</updated>
+      <workItem from="1556617610844" duration="19457000" />
+      <workItem from="1556648736962" duration="11213000" />
+      <workItem from="1556783409285" duration="7989000" />
+      <workItem from="1556796127332" duration="10948000" />
+      <workItem from="1556818645515" duration="5950000" />
+      <workItem from="1556882224191" duration="10170000" />
+      <workItem from="1557131414471" duration="15631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 05m 43s.xml">
+      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 08m 09s.xml">
+      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 10m 32s.xml">
+      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 11m 26s.xml">
+      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 18m 09s.xml">
+      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 20m 36s.xml">
+      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 25m 25s.xml">
+      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 34m 48s.xml">
+      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_gigasecond_test_py - 2019.05.06 at 14h 47m 52s.xml">
+      <configuration name="Unittests in gigasecond_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_gigasecond_test_py - 2019.05.06 at 14h 50m 38s.xml">
+      <configuration name="Unittests in gigasecond_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="81358000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19263607" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32842582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3114383" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295583" />
+      <window_info anchor="bottom" id="Regex Tester" order="13" weight="0.32842582" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18409818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32842582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3115124" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.33069083" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$Unittests_for_armstrong_numbers_test_ArmstrongNumbersTest.coverage" NAME="Unittests for armstrong_numbers_test.ArmstrongNumbersTest Coverage Results" MODIFIED="1556785374209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/armstrong-numbers" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_gigasecond_test_py.coverage" NAME="Unittests in gigasecond_test.py Coverage Results" MODIFIED="1557147038507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gigasecond" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_armstrong_numbers_test_py.coverage" NAME="Unittests in armstrong_numbers_test.py Coverage Results" MODIFIED="1556628752715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/armstrong-numbers" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_high_scores_test_HighScoreTest_test_list_of_scores.coverage" NAME="Unittests for high_scores_test.HighScoreTest.test_list_of_scores Coverage Results" MODIFIED="1556715273416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/high-scores" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_rna_transcription_test_py.coverage" NAME="Unittests in rna_transcription_test.py Coverage Results" MODIFIED="1556724677371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rna-transcription" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_high_scores_test_HighScoreTest_test_latest_score.coverage" NAME="Unittests for high_scores_test.HighScoreTest.test_latest_score Coverage Results" MODIFIED="1556715267349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/high-scores" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_series_test_py.coverage" NAME="Unittests in series_test.py Coverage Results" MODIFIED="1556720446445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/series" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_sgf_parsing_test_SgfParsingTest.coverage" NAME="Unittests for sgf_parsing_test.SgfParsingTest Coverage Results" MODIFIED="1556799451098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sgf-parsing" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_leap_test_py.coverage" NAME="Unittests in leap_test.py Coverage Results" MODIFIED="1557137307102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leap" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_high_scores_test_py.coverage" NAME="Unittests in high_scores_test.py Coverage Results" MODIFIED="1556723337796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/high-scores" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_hello_world_test_py.coverage" NAME="Unittests in hello_world_test.py Coverage Results" MODIFIED="1556622090738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello-world" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_high_scores_test_HighScoreTest_test_personal_top_three_from_a_long_list.coverage" NAME="Unittests for high_scores_test.HighScoreTest.test_personal_top_three_from_a_long_list Coverage Results" MODIFIED="1556715278939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/high-scores" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_high_scores_test_HighScoreTest_test_personal_best.coverage" NAME="Unittests for high_scores_test.HighScoreTest.test_personal_best Coverage Results" MODIFIED="1556715261496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/high-scores" />
+    <SUITE FILE_PATH="coverage/python$rna_transcription.coverage" NAME="rna_transcription Coverage Results" MODIFIED="1556724563525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rna-transcription" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_reverse_string_test_py.coverage" NAME="Unittests in reverse_string_test.py Coverage Results" MODIFIED="1556638659301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reverse-string" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_two_fer_test_py.coverage" NAME="Unittests in two_fer_test.py Coverage Results" MODIFIED="1556622538900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/two-fer" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_pangram_test_py.coverage" NAME="Unittests in pangram_test.py Coverage Results" MODIFIED="1556627385780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pangram" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_robot_name_test_RobotNameTest.coverage" NAME="Unittests for robot_name_test.RobotNameTest Coverage Results" MODIFIED="1556636921675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robot-name" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_space_age_test_py.coverage" NAME="Unittests in space_age_test.py Coverage Results" MODIFIED="1557146088327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/space-age" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_sgf_parsing_test_SgfParsingTest_test_empty_input.coverage" NAME="Unittests for sgf_parsing_test.SgfParsingTest.test_empty_input Coverage Results" MODIFIED="1556717187281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sgf-parsing" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_sgf_parsing_test_SgfParsingTest_test_tree_with_no_nodes.coverage" NAME="Unittests for sgf_parsing_test.SgfParsingTest.test_tree_with_no_nodes Coverage Results" MODIFIED="1556717175970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sgf-parsing" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_sgf_parsing_test_py.coverage" NAME="Unittests in sgf_parsing_test.py Coverage Results" MODIFIED="1556899813585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sgf-parsing" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_protein_translation_test_py.coverage" NAME="Unittests in protein_translation_test.py Coverage Results" MODIFIED="1557136677413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/protein-translation" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_sgf_parsing_test_SgfParsingTest_test_node_without_tree.coverage" NAME="Unittests for sgf_parsing_test.SgfParsingTest.test_node_without_tree Coverage Results" MODIFIED="1556717181973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sgf-parsing" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hello-world/hello_world_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-world/hello_world.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-fer/two_fer_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pangram/pangram_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot-name/robot_name_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/two-fer/two_fer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/series/series_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/high-scores/high_scores_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rna-transcription/rna_transcription_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reverse-string/reverse_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armstrong-numbers/armstrong_numbers_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/armstrong-numbers/armstrong_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/high-scores/high_scores.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pangram/pangram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rna-transcription/rna_transcription.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot-name/robot_name.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/series/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgf-parsing/sgf_parsing_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="70" column="37" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgf-parsing/sgf_parsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="125" column="92" selection-start-line="125" selection-start-column="92" selection-end-line="125" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protein-translation/protein_translation_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protein-translation/protein_translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leap/leap_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leap/leap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="68" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/space-age/space_age_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="22" selection-end-line="22" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/space-age/space_age.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gigasecond/gigasecond_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gigasecond/gigasecond.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yacht/yacht_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yacht/yacht.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="8" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="([ACGU]{3})+" />
+        <entry key="text" value="UAGUGG" />
+      </map>
+    </option>
+  </component>
+</project>

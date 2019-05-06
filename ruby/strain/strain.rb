@@ -1,9 +1,9 @@
 class Array
-  def keep(&block)
-    map { |element| element if block.call(element) }.compact
+  def keep
+    each_with_object([]) { |element, array| array << element if yield element }
   end
 
-  def discard(&block)
-    difference(keep(&block))
+  def discard
+    each_with_object([]) { |element, array| array << element unless yield element }
   end
 end
