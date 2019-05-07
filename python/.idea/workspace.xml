@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="286eab7e-bd28-4c39-8a6a-8ffa8ea2f934" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/high-scores/high_scores.py" beforeDir="false" afterPath="$PROJECT_DIR$/high-scores/high_scores.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +21,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/high-scores/high_scores.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -34,6 +33,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/matrix/matrix.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rational-numbers/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rational-numbers/rational_numbers_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rational-numbers/rational_numbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -80,12 +110,25 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>PLANETS_PERIOD</find>
+      <find>x(\d{1,2})</find>
+      <find>isbn_str</find>
+      <find>integer</find>
+      <find>self._symplify(Rational(num, denom))</find>
     </findStrings>
     <replaceStrings>
       <replace>self.PLANETS_PERIOD</replace>
+      <replace>isbn[\1]</replace>
+      <replace>isbn_str_list</replace>
+      <replace>number</replace>
+      <replace>Rational(num, denom)</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Patrice Cadiot &lt;pathibul.r@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
@@ -106,6 +149,8 @@
         <option value="$PROJECT_DIR$/space-age/space_age.py" />
         <option value="$PROJECT_DIR$/gigasecond/gigasecond.py" />
         <option value="$PROJECT_DIR$/high-scores/high_scores.py" />
+        <option value="$PROJECT_DIR$/isbn-verifier/isbn_verifier.py" />
+        <option value="$PROJECT_DIR$/rational-numbers/rational_numbers.py" />
       </list>
     </option>
   </component>
@@ -127,6 +172,11 @@
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="rational-numbers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
@@ -175,7 +225,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in matrix_test.py">
+  <component name="RunManager" selected="Python tests.Unittests in rational_numbers_test.py">
+    <configuration name="Unittests for rational_numbers_test.RationalNumbersTest.test_add_two_positive" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rational-numbers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;rational_numbers_test.RationalNumbersTest.test_add_two_positive&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in gigasecond_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,18 +256,18 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in leap_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in isbn_verifier_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/isbn-verifier" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/leap/leap_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/isbn-verifier/isbn_verifier_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -221,43 +286,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in protein_translation_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in rational_numbers_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/protein-translation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rational-numbers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/protein-translation/protein_translation_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in space_age_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/space-age" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/space-age/space_age_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/rational-numbers/rational_numbers_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in rational_numbers_test.py" />
+        <item itemvalue="Python tests.Unittests for rational_numbers_test.RationalNumbersTest.test_add_two_positive" />
+        <item itemvalue="Python tests.Unittests in isbn_verifier_test.py" />
         <item itemvalue="Python tests.Unittests in matrix_test.py" />
         <item itemvalue="Python tests.Unittests in gigasecond_test.py" />
-        <item itemvalue="Python tests.Unittests in space_age_test.py" />
-        <item itemvalue="Python tests.Unittests in leap_test.py" />
-        <item itemvalue="Python tests.Unittests in protein_translation_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -278,54 +328,62 @@
       <workItem from="1556818645515" duration="5950000" />
       <workItem from="1556882224191" duration="10170000" />
       <workItem from="1557131414471" duration="15631000" />
-      <workItem from="1557227364245" duration="222000" />
+      <workItem from="1557227364245" duration="9626000" />
     </task>
+    <task id="LOCAL-00001" summary="Add in Python track high scores approuved and matrix">
+      <created>1557227845130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557227845130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 05m 43s.xml">
-      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 05m 04s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 08m 09s.xml">
-      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 13m 22s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 10m 32s.xml">
-      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 19m 07s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 11m 26s.xml">
-      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 20m 09s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 18m 09s.xml">
-      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 28m 16s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 20m 36s.xml">
-      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 34m 12s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 25m 25s.xml">
-      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 41m 23s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_space_age_test_py - 2019.05.06 at 14h 34m 48s.xml">
-      <configuration name="Unittests in space_age_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 45m 28s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_gigasecond_test_py - 2019.05.06 at 14h 47m 52s.xml">
-      <configuration name="Unittests in gigasecond_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 48m 42s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_gigasecond_test_py - 2019.05.06 at 14h 50m 38s.xml">
-      <configuration name="Unittests in gigasecond_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_rational_numbers_test_py - 2019.05.07 at 15h 50m 21s.xml">
+      <configuration name="Unittests in rational_numbers_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81580000" />
+    <option name="totallyTimeSpent" value="90984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32842582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,8 +392,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3109426" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3295583" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3109426" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="bottom" id="Regex Tester" order="13" weight="0.32842582" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -370,6 +428,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add in Python track high scores approuved and matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add in Python track high scores approuved and matrix" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$Unittests_in_matrix_test_py.coverage" NAME="Unittests in matrix_test.py Coverage Results" MODIFIED="1557227617311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/matrix" />
     <SUITE FILE_PATH="coverage/python$rna_transcription.coverage" NAME="rna_transcription Coverage Results" MODIFIED="1556724563525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rna-transcription" />
@@ -385,6 +447,8 @@
     <SUITE FILE_PATH="coverage/python$Unittests_for_armstrong_numbers_test_ArmstrongNumbersTest.coverage" NAME="Unittests for armstrong_numbers_test.ArmstrongNumbersTest Coverage Results" MODIFIED="1556785374209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/armstrong-numbers" />
     <SUITE FILE_PATH="coverage/python$Unittests_for_high_scores_test_HighScoreTest_test_latest_score.coverage" NAME="Unittests for high_scores_test.HighScoreTest.test_latest_score Coverage Results" MODIFIED="1556715267349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/high-scores" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_gigasecond_test_py.coverage" NAME="Unittests in gigasecond_test.py Coverage Results" MODIFIED="1557147038507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gigasecond" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_rational_numbers_test_py.coverage" NAME="Unittests in rational_numbers_test.py Coverage Results" MODIFIED="1557237021091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rational-numbers" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_isbn_verifier_test_py.coverage" NAME="Unittests in isbn_verifier_test.py Coverage Results" MODIFIED="1557230725158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/isbn-verifier" />
     <SUITE FILE_PATH="coverage/python$Unittests_for_sgf_parsing_test_SgfParsingTest.coverage" NAME="Unittests for sgf_parsing_test.SgfParsingTest Coverage Results" MODIFIED="1556799451098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sgf-parsing" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_series_test_py.coverage" NAME="Unittests in series_test.py Coverage Results" MODIFIED="1556720446445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/series" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_leap_test_py.coverage" NAME="Unittests in leap_test.py Coverage Results" MODIFIED="1557137307102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leap" />
@@ -396,6 +460,7 @@
     <SUITE FILE_PATH="coverage/python$Unittests_in_hello_world_test_py.coverage" NAME="Unittests in hello_world_test.py Coverage Results" MODIFIED="1556622090738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hello-world" />
     <SUITE FILE_PATH="coverage/python$Unittests_for_sgf_parsing_test_SgfParsingTest_test_empty_input.coverage" NAME="Unittests for sgf_parsing_test.SgfParsingTest.test_empty_input Coverage Results" MODIFIED="1556717187281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sgf-parsing" />
     <SUITE FILE_PATH="coverage/python$Unittests_in_rna_transcription_test_py.coverage" NAME="Unittests in rna_transcription_test.py Coverage Results" MODIFIED="1556724677371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rna-transcription" />
+    <SUITE FILE_PATH="coverage/python$Unittests_for_rational_numbers_test_RationalNumbersTest_test_add_two_positive.coverage" NAME="Unittests for rational_numbers_test.RationalNumbersTest.test_add_two_positive Coverage Results" MODIFIED="1557233368153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rational-numbers" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hello-world/hello_world_test.py">
@@ -631,9 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/matrix/matrix.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/matrix/.exercism/metadata.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -641,6 +703,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isbn-verifier/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isbn-verifier/isbn_verifier_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isbn-verifier/isbn_verifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matrix/matrix.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rational-numbers/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rational-numbers/rational_numbers_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rational-numbers/rational_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
