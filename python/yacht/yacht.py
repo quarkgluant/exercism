@@ -15,4 +15,4 @@ CHOICE = None
 
 
 def score(dice, category):
-    pass
+    dice.sort()
