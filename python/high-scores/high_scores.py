@@ -1,4 +1,4 @@
-from heapq import heapify, nlargest
+from heapq import nlargest
 
 class HighScores(object):
     def __init__(self, scores):
@@ -11,6 +11,4 @@ class HighScores(object):
         return max(self.scores)
 
     def personal_top_three(self):
-        # return sorted(self.scores, reverse=True)[0:3]
-        heapify(self.scores)
         return nlargest(3, self.scores)
