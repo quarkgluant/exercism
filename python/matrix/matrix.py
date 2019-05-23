@@ -7,4 +7,4 @@ class Matrix(object):
         return self.matrix[index - 1]
 
     def column(self, index):
-        return [self.row(i)[index - 1] for i in range(1, len(self.matrix) + 1)]
+        return [row[index - 1] for row in self.matrix]

@@ -12,7 +12,7 @@ class Scrabble
   SCRABBLE_SCORE.default = 0
 
   def initialize(word)
-    @word = word  || ''
+    @word = word.to_s
   end
 
   def score
