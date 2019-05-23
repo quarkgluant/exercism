@@ -14,12 +14,12 @@ class Palindromes
   end
 
   def largest
-    factors = @palindromes.select {|_, product| product == @palindromes.values.max }
+    factors = @palindromes.select { |_, product| product == @palindromes.values.max }
     Palindrome.new factors.values.first, factors.keys
   end
 
   def smallest
-    factors = @palindromes.select {|_, product| product == @palindromes.values.min }
+    factors = @palindromes.select { |_, product| product == @palindromes.values.min }
     Palindrome.new factors.values.first, factors.keys
   end
 
