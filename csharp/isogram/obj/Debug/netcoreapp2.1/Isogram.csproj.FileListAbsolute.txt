@@ -1,0 +1,14 @@
+/home/quark/exercism/csharp/isogram/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/quark/exercism/csharp/isogram/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/quark/exercism/csharp/isogram/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/quark/exercism/csharp/isogram/bin/Debug/netcoreapp2.1/Isogram.deps.json
+/home/quark/exercism/csharp/isogram/bin/Debug/netcoreapp2.1/Isogram.runtimeconfig.json
+/home/quark/exercism/csharp/isogram/bin/Debug/netcoreapp2.1/Isogram.runtimeconfig.dev.json
+/home/quark/exercism/csharp/isogram/bin/Debug/netcoreapp2.1/Isogram.dll
+/home/quark/exercism/csharp/isogram/bin/Debug/netcoreapp2.1/Isogram.pdb
+/home/quark/exercism/csharp/isogram/obj/Debug/netcoreapp2.1/Isogram.csprojAssemblyReference.cache
+/home/quark/exercism/csharp/isogram/obj/Debug/netcoreapp2.1/Isogram.csproj.CoreCompileInputs.cache
+/home/quark/exercism/csharp/isogram/obj/Debug/netcoreapp2.1/Isogram.AssemblyInfoInputs.cache
+/home/quark/exercism/csharp/isogram/obj/Debug/netcoreapp2.1/Isogram.AssemblyInfo.cs
+/home/quark/exercism/csharp/isogram/obj/Debug/netcoreapp2.1/Isogram.dll
+/home/quark/exercism/csharp/isogram/obj/Debug/netcoreapp2.1/Isogram.pdb

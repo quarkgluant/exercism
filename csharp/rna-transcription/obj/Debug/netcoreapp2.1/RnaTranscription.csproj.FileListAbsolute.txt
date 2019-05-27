@@ -1,0 +1,14 @@
+/home/quark/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/quark/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/quark/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/quark/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.deps.json
+/home/quark/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.runtimeconfig.json
+/home/quark/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.runtimeconfig.dev.json
+/home/quark/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.dll
+/home/quark/exercism/csharp/rna-transcription/bin/Debug/netcoreapp2.1/RnaTranscription.pdb
+/home/quark/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.csprojAssemblyReference.cache
+/home/quark/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.csproj.CoreCompileInputs.cache
+/home/quark/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.AssemblyInfoInputs.cache
+/home/quark/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.AssemblyInfo.cs
+/home/quark/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.dll
+/home/quark/exercism/csharp/rna-transcription/obj/Debug/netcoreapp2.1/RnaTranscription.pdb

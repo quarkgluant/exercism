@@ -1,0 +1,14 @@
+/home/quark/exercism/csharp/leap/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/quark/exercism/csharp/leap/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/home/quark/exercism/csharp/leap/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/home/quark/exercism/csharp/leap/bin/Debug/netcoreapp2.1/Leap.deps.json
+/home/quark/exercism/csharp/leap/bin/Debug/netcoreapp2.1/Leap.runtimeconfig.json
+/home/quark/exercism/csharp/leap/bin/Debug/netcoreapp2.1/Leap.runtimeconfig.dev.json
+/home/quark/exercism/csharp/leap/bin/Debug/netcoreapp2.1/Leap.dll
+/home/quark/exercism/csharp/leap/bin/Debug/netcoreapp2.1/Leap.pdb
+/home/quark/exercism/csharp/leap/obj/Debug/netcoreapp2.1/Leap.csprojAssemblyReference.cache
+/home/quark/exercism/csharp/leap/obj/Debug/netcoreapp2.1/Leap.csproj.CoreCompileInputs.cache
+/home/quark/exercism/csharp/leap/obj/Debug/netcoreapp2.1/Leap.AssemblyInfoInputs.cache
+/home/quark/exercism/csharp/leap/obj/Debug/netcoreapp2.1/Leap.AssemblyInfo.cs
+/home/quark/exercism/csharp/leap/obj/Debug/netcoreapp2.1/Leap.dll
+/home/quark/exercism/csharp/leap/obj/Debug/netcoreapp2.1/Leap.pdb
