@@ -51,10 +51,18 @@ build-iPhoneSimulator/
 *.json
 *.pyc
 
-/.idea/
-/.vscode/
-/__pycache__/
-/.stack-work/
+# Pour le C#
+**/bin/
+bin
+**/obj/
+obj
+**/Debug/
+**/bin/Debug/netcoreapp2.1/
+**/netcoreapp2.1/
+**/.idea/
+**/.vscode/
+**/__pycache__/
+**/.stack-work/
 
 
 # for a library or gem, you might want to ignore these files since the code is
