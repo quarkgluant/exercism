@@ -50,6 +50,7 @@ build-iPhoneSimulator/
 *.cache
 *.json
 *.pyc
+.editorconfig
 
 # Pour le C#
 **/bin/
