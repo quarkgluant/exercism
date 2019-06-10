@@ -20,10 +20,8 @@ class Triplet
     triplets = (min_factor..max_factor)
          .to_a
          .combination(3)
-    if sum
-      triplets = triplets.select { |x, y, z| x + y + z == sum  }
-    end
-    triplets.select { |x, y, z| x**2 + y**2 == z**2 }
-            .map {|x, y, z| Triplet.new(x, y, z) }
+    triplets = triplets.select { |x, y, z| x + y + z == sum  } if sum
+    triplets.map {|x, y, z| Triplet.new(x, y, z) }
+            .select(&:pythagorean?)
   end
 end
