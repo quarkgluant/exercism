@@ -1,6 +1,6 @@
 class Triplet
   def initialize(*triplet)
-    @triplet = triplet.sort
+    @triplet = triplet
   end
 
   def sum
@@ -12,7 +12,7 @@ class Triplet
   end
 
   def pythagorean?
-    first, second, third = @triplet
+    first, second, third = @triplet.sort
     third**2 == (first**2 + second**2)
   end
 
@@ -20,10 +20,21 @@ class Triplet
     triplets = (min_factor..max_factor)
          .to_a
          .combination(3)
-    if sum
-      triplets = triplets.select { |x, y, z| x + y + z == sum  }
+    triplets = select_with_sum(triplets, sum)
+    triplets.map { |x, y, z| Triplet.new(x, y, z) }
+            .select(&:pythagorean?)
+  end
+
+
+  class << self
+    private
+
+    def select_with_sum(triplets, sum)
+      if sum
+        triplets.select { |x, y, z| x + y + z == sum }
+      else
+        triplets
+      end
     end
-    triplets.select { |x, y, z| x**2 + y**2 == z**2 }
-            .map {|x, y, z| Triplet.new(x, y, z) }
   end
 end

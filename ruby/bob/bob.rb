@@ -1,4 +1,4 @@
-class Bob 
+class Bob
   def self.hey(remark)
     case remark.strip
       when /^\s*\z/
