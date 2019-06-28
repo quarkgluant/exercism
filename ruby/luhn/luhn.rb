@@ -8,9 +8,7 @@ class Luhn
   end
 
   def valid?
-    return false if @input.length < 2 || @input =~ /[^\d]/
-
-    checksum % 10 == 0
+    @input.length >= 2 && !(@input =~ /[^\d]/) && checksum % 10 == 0
   end
 
   private
