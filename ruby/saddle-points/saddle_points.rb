@@ -14,12 +14,17 @@ class Matrix
   end
 
   def saddle_points
-    result = []
-    rows.each_with_index do |row, abscissa|
-      columns.each_with_index do |col, ordinate|
-        result << [abscissa, ordinate] if col.min == row.max
+    [].tap do |result|
+      rows.each_with_index do |row, abscissa|
+        columns.each_with_index do |col, ordinate|
+          result << [abscissa, ordinate] if saddle_points?(col, row)
+        end
       end
     end
-    result
   end
+
+  def saddle_points?(column, row)
+    column.min == row.max
+  end
+
 end

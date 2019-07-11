@@ -1,4 +1,4 @@
-class Alphametics
+class AlphameticsOld
   WORD_BOUNDARIES = /\b[A-Z]+\b/
   NUMBER_BOUNDARIES = /\b\d+\b/
 

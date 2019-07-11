@@ -8,17 +8,15 @@ class Luhn
   end
 
   def valid?
-    @input.length >= 2 && !(@input =~ /[^\d]/) && checksum % 10 == 0
+    return false if @input.length < 2 || @input =~ /[^\d]/
+
+    checksum % 10 == 0
   end
 
   private
 
   def double(digit)
-    if digit.nil?
-      0
-    else
-      (digit * 2 > 9) ? digit * 2 - 9 : digit * 2
-    end
+    (digit * 2 > 9) ? digit * 2 - 9 : digit * 2
   end
 
   def digits
@@ -26,7 +24,7 @@ class Luhn
   end
 
   def checksum
-    digits.each_slice(2).sum { |first, second| first + double(second) }
+    digits.each_slice(2).sum { |first, second = 0| first + double(second) }
   end
 
 end
