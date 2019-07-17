@@ -12,13 +12,9 @@ class Alphametics
   end
 
   def resolve
-    first_or_alone_letters = first_letters
     solver = build_solver
-    all_permutations = (0..9).to_a.permutation(letters.length)
-    all_permutations.each do |permutation|
-      soluce = letters.zip(permutation).to_h
-      next if first_or_alone_letters.any? { |letter| soluce[letter].zero? }
-      return soluce if solver.call(permutation)
+    (0..9).to_a.permutation(letters.length).each do |permutation|
+      return letters.zip(permutation).to_h if solver.call(permutation)
     end
     {}
   end
@@ -26,18 +22,24 @@ class Alphametics
   def build_solver
     left = left_words.map {|word| transform_operands(word) }.join('+')
     right = transform_operands(right_word)
-    to_test = "#{left} == #{right}"
+    equation = "#{left} == #{right}"
     args = letters.map(&:downcase).join(',')
     eval <<-RUBY
       Proc.new do |#{args}|
-        #{to_test}
+        #{first_letter_not_nul} && #{equation}
       end
     RUBY
   end
 
+  def first_letter_not_nul
+    first_letters.map(&:downcase).each_with_object([]) do |letter, result|
+      result << "#{letter} != 0"
+    end.join('&&')
+  end
+
   def transform_operands(word)
     word = word.downcase
-    return word+".to_i" if word.length == 1
+    return word if word.length == 1
     tmp = word.chars.map{|char| "#{char}.to_s" }.join('+')
     "(" + tmp + ").to_i"
   end
