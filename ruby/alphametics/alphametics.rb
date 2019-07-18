@@ -40,14 +40,14 @@ class Alphametics
   def transform_operands(word)
     word = word.downcase
     return word if word.length == 1
-    tmp = word.chars.map{|char| "#{char}.to_s" }.join('+')
-    "(" + tmp + ").to_i"
+    word.reverse.chars.each_with_index.with_object([]) do |(letter, index), result|
+      result << (index.zero? ? letter : "#{letter}*1#{'0'*index}")
+    end.join('+')
   end
 
   def left_words
-    @puzzle.split('==').first.scan(WORD_BOUNDARIES)
+    @puzzle.split('==').first.scan(WORD_BOUNDARIES).sort_by(&:length).reverse
   end
-
 
   def right_word
     @puzzle.split('==')[-1].scan(WORD_BOUNDARIES).first
