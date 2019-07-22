@@ -21,14 +21,32 @@ class Alphametics
 
   def build_solver
     left = left_words.map {|word| transform_operands(word) }.join('+')
-    right = transform_operands(right_word)
-    equation = "#{left} == #{right}"
+    right = transform_operands(right_word).tr('+', '-')
+    equation = "#{left} -#{right} == 0"
+    puts "equation: #{equation}"
+    new_equation = reduction(equation) + ' == 0'
+    puts "new_equation: #{new_equation}"
     args = letters.map(&:downcase).join(',')
     eval <<-RUBY
       Proc.new do |#{args}|
-        #{first_letter_not_nul} && #{equation}
+        #{first_letter_not_nul} && #{new_equation}
       end
     RUBY
+  end
+
+  def reduction(equation)
+    letters.map(&:downcase).each_with_object("") do |letter, new_equation|
+      new_equation << symplify(letter, equation) + '+'
+    end << '0'
+  end
+
+  def symplify(letter, equation)
+    res = equation.scan(/(\+|-)?#{letter}\*(\d+)/).each_with_object("") do |m, str|
+      unary =  m[0].nil? ? '+' : m[0]
+      str << '(' + unary + m[1] + ')' + '+'
+    end << '0'
+    new_coef = eval res
+    "#{new_coef}*#{letter}"
   end
 
   def first_letter_not_nul
@@ -39,9 +57,9 @@ class Alphametics
 
   def transform_operands(word)
     word = word.downcase
-    return word if word.length == 1
+    return "#{word}*1" if word.length == 1
     word.reverse.chars.each_with_index.with_object([]) do |(letter, index), result|
-      result << (index.zero? ? letter : "#{letter}*1#{'0'*index}")
+      result << (index.zero? ? "#{letter}*1": "#{letter}*1#{'0'*index}")
     end.join('+')
   end
 
