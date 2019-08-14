@@ -22,14 +22,15 @@ class Alphametics
   def build_solver
     left = left_words.map {|word| transform_operands(word) }.join('+')
     right = transform_operands(right_word).tr('+', '-')
-    equation = "#{left} -#{right} == 0"
-    puts "equation: #{equation}"
-    new_equation = reduction(equation) + ' == 0'
-    puts "new_equation: #{new_equation}"
+    equation = "#{left}-#{right}"
+    # puts first_letter_longest_operand
+    # puts "equation: #{equation}"
+    new_equation = reduction(equation).chop.chop
+    # puts "new_equation: #{new_equation}"
     args = letters.map(&:downcase).join(',')
     eval <<-RUBY
       Proc.new do |#{args}|
-        #{first_letter_not_nul} && #{new_equation}
+        #{first_letter_not_nul} && #{new_equation} == 0
       end
     RUBY
   end
@@ -55,20 +56,33 @@ class Alphametics
     end.join('&&')
   end
 
+  def first_letter_longest_operand
+    right_word.chars.first if length_right_word > lengths_left_words.max
+  end
+
   def transform_operands(word)
     word = word.downcase
     return "#{word}*1" if word.length == 1
+
     word.reverse.chars.each_with_index.with_object([]) do |(letter, index), result|
-      result << (index.zero? ? "#{letter}*1": "#{letter}*1#{'0'*index}")
+      result << "#{letter}*1#{'0'*index}"
     end.join('+')
   end
 
   def left_words
-    @puzzle.split('==').first.scan(WORD_BOUNDARIES).sort_by(&:length).reverse
+    @puzzle.split('==').first.scan(WORD_BOUNDARIES)
+  end
+
+  def lengths_left_words
+    left_words.map &:length
   end
 
   def right_word
     @puzzle.split('==')[-1].scan(WORD_BOUNDARIES).first
+  end
+
+  def length_right_word
+    right_word.length
   end
 
   def letters
