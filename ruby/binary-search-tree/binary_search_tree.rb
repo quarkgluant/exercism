@@ -1,74 +1,28 @@
 class Bst
-  class Node
-    attr_accessor :data, :left, :right
-
-    def initialize(data)
-      @data = data
-      @left = nil
-      @right = nil
-    end
-
-    def insert_at(new_data, node: @root)
-      # new_node = Node.new new_data
-      if new_data > node.data
-        if node.right.nil?
-          node.right = Node.new(new_data)
-        else
-          node.insert_at(new_data, node: node.right)
-        end
-      elsif new_data == node.data
-        return node
-      else
-        if node.left.nil?
-          node.left = Node.new(new_data)
-        else
-          node.insert_at(new_data, node: node.left)
-        end
-      end
-      node
-    end
-
-  end
-  attr_accessor :data, :root, :left, :right
+  attr_accessor :left, :right
+  attr_reader :data
 
   def initialize(data)
-    root = Node.new(data)
-    @root = root
-    @data = root.data
-    @left = root.left
-    @right = root.right
+    @data = data
+    @left = nil
+    @right = nil
   end
 
   def insert(new_data)
-    @root.insert_at(new_data, node: @root)
+    if new_data > data
+      right.nil? ? @right = Bst.new(new_data) : right.insert(new_data)
+    else
+      left.nil? ? @left = Bst.new(new_data) : left.insert(new_data)
+    end
   end
 
-
-
-  # def insert(new_data)
-  #   insert_at(new_data, @root)
-  # end
-  #
-  # private
-  #
-  # def insert_at(new_data, node)
-  #   if new_data > data
-  #     if node.right.nil?
-  #       right = new_data
-  #     else
-  #       data = right
-  #       insert(new_data, @right)
-  #     end
-  #   else
-  #     if data.left.nil?
-  #       data.left = new_data
-  #     else
-  #       # data = left
-  #       insert(new_data, left)
-  #     end
-  #   end
-  # end
+  def each(&block)
+    return to_enum(:each) unless block_given?
+    left.each(&block) unless left.nil?
+    yield data
+    right.each(&block) unless right.nil?
+  end
 end
 
-four = Bst.new 4
-four.insert 5
+# four = Bst.new 4
+# four.insert 5
