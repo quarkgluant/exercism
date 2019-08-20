@@ -18,11 +18,9 @@ class Bst
 
   def each(&block)
     return to_enum(:each) unless block_given?
+
     left.each(&block) unless left.nil?
     yield data
     right.each(&block) unless right.nil?
   end
 end
-
-# four = Bst.new 4
-# four.insert 5

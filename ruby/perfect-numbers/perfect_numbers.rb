@@ -1,27 +1,26 @@
 class PerfectNumbers
 
   class << self
-
     def classify(number)
-      raise RuntimeError if number <= 0 || !number.is_a?(Integer)
+      raise RuntimeError if number <= 0
 
-      case number <=> aliquot_sum(number)
-      when -1
-        "abundant"
-      when 1
-        "deficient"
-      when 0
-        "perfect"
+      factors_sum = aliquot_sum(number)
+      if number > factors_sum
+        'deficient'
+      elsif number == factors_sum
+        'perfect'
+      else
+        'abundant'
       end
     end
 
     private
 
     def aliquot_sum(number)
-      aliquot_parts(number).sum
+      factors(number).sum
     end
 
-    def aliquot_parts(number)
+    def factors(number)
       (1...number).to_a.each_with_object([]) do |part, array|
         array << part if (number % part).zero?
       end

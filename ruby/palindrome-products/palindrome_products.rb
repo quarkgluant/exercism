@@ -1,4 +1,5 @@
 class Palindromes
+  include Comparable
   Palindrome = Struct.new :value, :factors
 
   def initialize(max_factor: , min_factor: 1)
