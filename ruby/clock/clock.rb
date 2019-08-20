@@ -24,13 +24,9 @@ class Clock
     self.minute == other.minute
   end
 
-  def less_than_ten(time)
-    time < 10 ? "0#{time}" : time
-  end
-
   def to_s
-    hour = less_than_ten(minute / MINUTES_PER_HOUR % HOURS_PER_DAY)
-    minute = less_than_ten(@minute % MINUTES_PER_HOUR)
-    "#{hour}:#{minute}"
+    hour = minute / MINUTES_PER_HOUR % HOURS_PER_DAY
+    minute = @minute % MINUTES_PER_HOUR
+    "%02d:%02d" % [hour, minute]
   end
 end

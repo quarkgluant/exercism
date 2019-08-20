@@ -5,12 +5,12 @@ class PerfectNumbers
       raise RuntimeError if number <= 0
 
       factors_sum = aliquot_sum(number)
-      if number > factors_sum
+      if factors_sum < number
         'deficient'
-      elsif number == factors_sum
-        'perfect'
-      else
+      elsif factors_sum > number
         'abundant'
+      else
+        'perfect'
       end
     end
 
