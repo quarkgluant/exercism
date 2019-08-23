@@ -138,7 +138,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(12, 12),
+    assert_equal expected, TwelveDays.recite(12, 12)
   end
 
   # This test is an acceptance test.
