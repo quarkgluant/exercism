@@ -2,7 +2,7 @@ class BinarySearch
   attr_reader :list
 
   def initialize(numbers_list)
-    raise ArgumentError unless numbers_list.sort == numbers_list
+    raise ArgumentError unless data_sorted?(numbers_list)
 
     @list = numbers_list
   end
@@ -12,14 +12,26 @@ class BinarySearch
   end
 
   def search_for(target)
-    raise RuntimeError unless list.include? target
+    return middle if median_value == target
 
-    if list[middle] == target
-      middle
-    elsif target > list[middle]
-      BinarySearch.new(list[(middle + 1)..-1]).search_for(target) + list[0..middle].length
+    if target > median_value
+      sublist = list[middle..-1]
+      raise RuntimeError, 'Not Found' if sublist == list
+      BinarySearch.new(sublist).search_for(target) + middle #list[0..middle].length
     else
-      BinarySearch.new(list[0...middle]).search_for(target)
+      sublist = list[0..middle]
+      raise RuntimeError, 'Not Found' if sublist == list
+      BinarySearch.new(sublist).search_for(target)
     end
+  end
+
+  private
+
+  def data_sorted?(numbers_list)
+    numbers_list.sort == numbers_list
+  end
+
+  def median_value
+    list[middle]
   end
 end
