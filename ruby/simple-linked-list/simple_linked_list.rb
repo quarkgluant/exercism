@@ -19,21 +19,6 @@ class SimpleLinkedList
     end
     self
   end
-  #
-  # def pop_bis
-  #   if @head.nil?
-  #     nil
-  #   else
-  #     previous = @head
-  #     next_node = previous.next
-  #     while next_node
-  #       previous = next_node
-  #       next_node = next_node.next
-  #     end
-  #     previous&.next = nil
-  #     next_node
-  #   end
-  # end
 
   def pop
     if head.nil?
@@ -42,16 +27,10 @@ class SimpleLinkedList
       node = head
       previous = nil
       while node.next
-        # p "node début while: #{node}"
         previous = node
-        # p "previous: #{previous}"
         node = node.next
-        # p "node fin while: #{node}"
       end
-      # p "node APRES while: #{node}"
-      # p "previous: #{previous}"
       previous&.next = nil
-      # p "NOUVELLE BOUCLE"
       node
     end
   end
@@ -71,13 +50,9 @@ class SimpleLinkedList
     old_previous = nil
     while current
       next_node = current.next
-      # p "old_previous avant: #{old_previous}"
       current.next = old_previous
-      # p "currrent.next après current.next = old_previous: #{current&.next}"
       old_previous = current
-      # p "old_previous après: #{old_previous}"
       current = next_node
-      # p "currrent en fin de boucle: #{current}"
     end
     self.head = old_previous
     self
@@ -92,7 +67,6 @@ class SimpleLinkedList
       node = new_node
     end
   end
-
 end
 
 class Element
