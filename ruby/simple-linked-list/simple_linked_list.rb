@@ -1,20 +1,17 @@
 class SimpleLinkedList
+  attr_accessor :head
+
   def initialize(array = [])
     array = array.to_a if array.is_a? Range
-    @head = Element.new(array.shift) unless array.empty?
-    node = @head
-    while !array.empty?
-      new_node = Element.new(array.shift)
-      node.next = new_node
-      node = new_node
-    end
+    self.head = Element.new(array.shift) unless array.empty?
+    construct_from_array(array, head)
   end
 
   def push(element)
-    if @head.nil?
-      @head = element
+    if head.nil?
+      self.head = element
     else
-      node = @head
+      node = head
       while node.next
         node = node.next
       end
@@ -39,10 +36,10 @@ class SimpleLinkedList
   # end
 
   def pop
-    if @head.nil?
+    if head.nil?
       nil
     else
-      node = @head
+      node = head
       previous = nil
       while node.next
         # p "node début while: #{node}"
@@ -61,19 +58,19 @@ class SimpleLinkedList
 
   def to_a
     array = []
-    node = @head
+    node = head
     while node
       array.unshift node.datum
-      node = node&.next
+      node = node.next
     end
     array
   end
 
   def reverse!
-    current = @head
+    current = head
     old_previous = nil
     while current
-      next_node = current&.next
+      next_node = current.next
       # p "old_previous avant: #{old_previous}"
       current.next = old_previous
       # p "currrent.next après current.next = old_previous: #{current&.next}"
@@ -82,8 +79,18 @@ class SimpleLinkedList
       current = next_node
       # p "currrent en fin de boucle: #{current}"
     end
-    @head = old_previous
+    self.head = old_previous
     self
+  end
+
+  private
+
+  def construct_from_array(array, node)
+    until array.empty?
+      new_node = Element.new(array.shift)
+      node.next = new_node
+      node = new_node
+    end
   end
 
 end
