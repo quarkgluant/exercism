@@ -21,12 +21,12 @@ class House
     noun = @nouns[@index]
     return '' if @index.negative?
     index_strophe = @index
-    "This is #{noun}" + self.strophe(index_strophe) +  self.recite
+    "#{@index == @verbs.size - 1 ? '' : "\n"}This is #{noun}" + self.strophe(index_strophe) + "\n" +  self.recite
   end
 
   def self.strophe(index)
     return '' if index > (@nouns.size - 1)
-    return " that Jack built.\n\n" if index == (@nouns.size - 1)
+    return " that Jack built." if index == (@nouns.size - 1)
     "\nthat #{@verbs[index]} #{index == @nouns.size - 2 ? 'in ' : ''}#{@nouns[index + 1]}" + self.strophe(index + 1)
   end
 end
