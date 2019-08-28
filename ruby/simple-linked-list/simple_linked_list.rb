@@ -1,5 +1,6 @@
 class SimpleLinkedList
   def initialize(array = [])
+    array = array.to_a if array.is_a? Range
     @head = Element.new(array.shift) unless array.empty?
     node = @head
     while !array.empty?
@@ -21,18 +22,40 @@ class SimpleLinkedList
     end
     self
   end
+  #
+  # def pop_bis
+  #   if @head.nil?
+  #     nil
+  #   else
+  #     previous = @head
+  #     next_node = previous.next
+  #     while next_node
+  #       previous = next_node
+  #       next_node = next_node.next
+  #     end
+  #     previous&.next = nil
+  #     next_node
+  #   end
+  # end
 
   def pop
     if @head.nil?
       nil
     else
       node = @head
+      previous = nil
       while node.next
+        # p "node début while: #{node}"
+        previous = node
+        # p "previous: #{previous}"
         node = node.next
+        # p "node fin while: #{node}"
       end
-      temp = node
-      node = nil
-      temp
+      # p "node APRES while: #{node}"
+      # p "previous: #{previous}"
+      previous&.next = nil
+      # p "NOUVELLE BOUCLE"
+      node
     end
   end
 
@@ -47,16 +70,17 @@ class SimpleLinkedList
   end
 
   def reverse!
-    # array = []
-    node = @head
-    old_previous = @head
-    while node
-      # array << node
-      old_previous = node
-      old_next = node&.next
-      old_next&.next = old_previous
-      old_previous.next = node
-      node = old_next&.next
+    current = @head
+    old_previous = nil
+    while current
+      next_node = current&.next
+      # p "old_previous avant: #{old_previous}"
+      current.next = old_previous
+      # p "currrent.next après current.next = old_previous: #{current&.next}"
+      old_previous = current
+      # p "old_previous après: #{old_previous}"
+      current = next_node
+      # p "currrent en fin de boucle: #{current}"
     end
     @head = old_previous
     self
@@ -73,4 +97,7 @@ class Element
     @next = nil
   end
 
+  def to_s
+    "#{datum}->#{@next&.datum}"
+  end
 end
