@@ -5,14 +5,14 @@ class TwelveDaysTest < Minitest::Test
   def test_verse1
     expected = ['On the first day of Christmas my true love gave to me: ' +
                     'a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(1, 1)
+    assert_equal expected, TwelveDays.new.recite(1, 1)
   end
 
   def test_verse2
     expected = ['On the second day of Christmas my true love gave to me: ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(2, 2)
+    assert_equal expected, TwelveDays.new.recite(2, 2)
   end
 
   def test_verse3
@@ -20,7 +20,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(3, 3)
+    assert_equal expected, TwelveDays.new.recite(3, 3)
   end
 
   def test_verse4
@@ -29,7 +29,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(4, 4)
+    assert_equal expected, TwelveDays.new.recite(4, 4)
   end
 
   def test_verse5
@@ -39,7 +39,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(5, 5)
+    assert_equal expected, TwelveDays.new.recite(5, 5)
   end
 
   def test_verse6
@@ -50,7 +50,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(6, 6)
+    assert_equal expected, TwelveDays.new.recite(6, 6)
   end
 
   def test_verse7
@@ -62,7 +62,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(7, 7)
+    assert_equal expected, TwelveDays.new.recite(7, 7)
   end
 
   def test_verse8
@@ -75,7 +75,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(8, 8)
+    assert_equal expected, TwelveDays.new.recite(8, 8)
   end
 
   def test_verse9
@@ -89,7 +89,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(9, 9)
+    assert_equal expected, TwelveDays.new.recite(9, 9)
   end
 
   def test_verse10
@@ -104,7 +104,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(10, 10)
+    assert_equal expected, TwelveDays.new.recite(10, 10)
   end
 
   def test_verse11
@@ -121,7 +121,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(11, 11)
+    assert_equal expected, TwelveDays.new.recite(11, 11)
   end
 
   def test_verse12
@@ -138,7 +138,7 @@ class TwelveDaysTest < Minitest::Test
                     'three French Hens, ' +
                     'two Turtle Doves, ' +
                     'and a Partridge in a Pear Tree.']
-    assert_equal expected, TwelveDays.recite(12, 12)
+    assert_equal expected, TwelveDays.new.recite(12, 12)
   end
 
   # This test is an acceptance test.

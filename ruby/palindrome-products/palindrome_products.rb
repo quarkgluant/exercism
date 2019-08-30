@@ -1,6 +1,14 @@
 class Palindromes
-  include Comparable
-  Palindrome = Struct.new :value, :factors
+  attr_reader :palindromes_with_products
+  attr_accessor :palindromes
+
+  Palindrome = Struct.new :value, :factors do
+    include Comparable
+
+    def <=>(another)
+      value <=> another.value
+    end
+  end
 
   def initialize(max_factor: , min_factor: 1)
     @max_factor, @min_factor = max_factor, min_factor
@@ -8,17 +16,16 @@ class Palindromes
 
   def generate
     @palindromes_with_products = Hash[pairs.zip(products)].select { |_, product| is_palindrome?(product) }
-    @palindromes = @palindromes_with_products.values.uniq
+    palindromes_values = palindromes_with_products.values.uniq
+    self.palindromes = palindromes_values.map { |value| Palindrome.new value, products_with_palindrome[value] }
   end
 
   def largest
-    max = @palindromes.max
-    Palindrome.new max, products_with_palindrome[max]
+    palindromes.max
   end
 
   def smallest
-    min = @palindromes.min
-    Palindrome.new min, products_with_palindrome[min]
+    palindromes.min
   end
 
   private
@@ -29,7 +36,7 @@ class Palindromes
 
   def products_with_palindrome
     products_with_palindrome = Hash.new { |hash, key| hash[key] = [] }
-    @palindromes_with_products.each_with_object(products_with_palindrome) do |(product, palidrome), hash|
+    palindromes_with_products.each_with_object(products_with_palindrome) do |(product, palidrome), hash|
       hash[palidrome] << product
     end
   end
@@ -41,5 +48,4 @@ class Palindromes
   def products
     pairs.map { |pair| pair.first * pair.last }
   end
-
 end

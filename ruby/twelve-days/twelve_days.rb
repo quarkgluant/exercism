@@ -14,21 +14,26 @@ class TwelveDays
            'twelve Drummers Drumming'
   ]
 
-  def self.recite(first_couplet, last_couplet)
-    (first_couplet..last_couplet).each_with_object([]) { |couplet_number, result| result << new.verse(couplet_number) }.flatten
+  def self.song
+    new.all_the_song
   end
 
-  def self.song
-    (1..12).map { |strophe_number| self.recite(strophe_number, strophe_number) }.join("\n\n") + "\n"
+  def recite(first_couplet, last_couplet)
+    (first_couplet..last_couplet).each_with_object([]) do |couplet_number, result|
+      result << verse(couplet_number)
+    end.flatten
+  end
+
+  def all_the_song
+    (1..12).map do |strophe_number|
+      recite(strophe_number, strophe_number)
+    end.join("\n\n") + "\n"
   end
 
   def verse(couplet_number)
     couplet_number -= 1
-    initial = "On the #{NUMBER_DAYS[couplet_number]} day of Christmas my true love gave to me: "
-    final = ''
     strophe = GIFTS[1..couplet_number].reverse.join(', ')
-    final += ', and ' unless strophe.empty?
-    final += GIFTS.first + '.'
-    [initial + strophe + final]
+    ["On the #{NUMBER_DAYS[couplet_number]} day of Christmas my true love gave to me: " +
+         strophe + "#{strophe.empty? ? '' : ', and '}" + GIFTS.first + '.']
   end
 end
