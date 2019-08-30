@@ -6,8 +6,7 @@ class BinarySearch
     raise ArgumentError unless data_sorted?(numbers_list)
 
     @list = numbers_list
-    @lower_bound = 0
-    @upper_bound = list.length - 1
+    init_bounds
   end
 
   def middle
@@ -15,7 +14,11 @@ class BinarySearch
   end
 
   def search_for(target)
-    return clean_up_and_return(middle) if median_value == target
+    if median_value == target
+      result = middle
+      init_bounds
+      return result
+    end
     raise RuntimeError, 'Not Found' if upper_bound <= lower_bound
 
     if target > median_value
@@ -36,9 +39,8 @@ class BinarySearch
     list[middle]
   end
 
-  def clean_up_and_return(result)
-    self.send :initialize, list
-    result
+  def init_bounds
+    self.upper_bound = (list.length - 1)
+    self.lower_bound = 0
   end
-
 end
