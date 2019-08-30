@@ -38,8 +38,8 @@ class Palindromes
 
   def products_with_palindrome
     products_with_palindrome = Hash.new { |hash, key| hash[key] = [] }
-    palindromes_with_products.each_with_object(products_with_palindrome) do |(product, palidrome), hash|
-      hash[palidrome] << product
+    palindromes_with_products.each_with_object(products_with_palindrome) do |(product, palindrome), hash|
+      hash[palindrome] << product
     end
   end
 
@@ -52,18 +52,4 @@ class Palindromes
   end
 end
 
-n = 100
-Benchmark.bm do |benchmark|
-  benchmark.report("with uniq") do
-    n.times do
-      palindromes = Palindromes.new(max_factor: 999, min_factor: 100)
-      palindromes.generate
-      palindromes.largest
-    end
-  end
-end
-
-#           user        system      total     real
-# with unik
-#           88.407062   0.175468  88.582530 ( 88.782443)
 

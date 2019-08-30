@@ -33,7 +33,10 @@ class TwelveDays
   def verse(couplet_number)
     couplet_number -= 1
     strophe = GIFTS[1..couplet_number].reverse.join(', ')
-    ["On the #{NUMBER_DAYS[couplet_number]} day of Christmas my true love gave to me: " +
-         strophe + "#{strophe.empty? ? '' : ', and '}" + GIFTS.first + '.']
+    ["On the #{NUMBER_DAYS[couplet_number]} day of Christmas " +
+     "my true love gave to me: " +
+         strophe +
+         "#{strophe.empty? ? '' : ', and '}" +
+         GIFTS.first + '.']
   end
 end

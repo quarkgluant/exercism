@@ -41,7 +41,7 @@ class Simulator
 
   def instructions(directions)
     instructions = { 'L' => :turn_left, 'A' => :advance, 'R' => :turn_right }
-    directions.split('').each_with_object([]) { |direction, output| output << instructions[direction] }
+    directions.chars.each_with_object([]) { |direction, output| output << instructions[direction] }
   end
 
   def place(robot, x: , y: , direction: )
