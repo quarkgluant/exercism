@@ -1,60 +1,76 @@
 class Deque
   attr_accessor :head, :queue
+  PUSH_UNSHIFT = [
+          {
+              method_name: 'push',
+              first: 'head',
+              last: 'queue',
+              link_before: 'previous',
+              link_after: 'next'
+          },
+          {
+              method_name: 'unshift',
+              first: 'queue',
+              last: 'head',
+              link_before: 'next',
+              link_after: 'previous'
+          }
+  ]
+  POP_SHIFT = [
+      {
+          method_name: 'pop',
+          first: 'head',
+          last: 'queue',
+          link_before: 'previous',
+          link_after: 'next'
+      },
+      {
+          method_name: 'shift',
+          first: 'queue',
+          last: 'head',
+          link_before: 'next',
+          link_after: 'previous'
+      }
+  ]
 
   def initialize
     @head = nil
     @queue = nil
   end
 
-  def push(data)
-    node = Node.new data
-    if head.nil?
-      self.head = node
-      self.queue = node
-    else
-      previous_end = queue
-      previous_end.next = node
-      self.queue = node
-      node.previous = previous_end
+  PUSH_UNSHIFT.each do |hash|
+    eval <<-END
+    def #{hash[:method_name]}(data)
+      node = Node.new data
+      if #{hash[:first]}.nil?
+        self.head = node
+        self.queue = node
+      else
+        previous_#{hash[:last]} = #{hash[:last]}
+        previous_#{hash[:last]}.#{hash[:link_after]} = node
+        self.#{hash[:last]} = node
+        node.#{hash[:link_before]} = previous_#{hash[:last]}
+      end
+      self
     end
-    self
-  end
+    END
+    end
 
-  def pop
-    result = queue
+  POP_SHIFT.each do |hash|
+  eval <<-END
+  def #{hash[:method_name]}
+    result = #{hash[:last]}
     if head != queue
-      self.queue = queue.previous
-      self.queue.next = nil
+      self.#{hash[:last]} = #{hash[:last]}.#{hash[:link_before]}
+      self.#{hash[:last]}.#{hash[:link_after]} = nil
     else
       self.head = self.queue = nil
     end
     result.data
   end
-
-  def unshift(data)
-    node = Node.new data
-    if queue.nil?
-      self.head = node
-      self.queue = node
-    else
-      previous_head = head
-      previous_head.previous = node
-      self.head = node
-      node.next = previous_head
-    end
-    self
+  END
   end
 
-  def shift
-    result = head
-    if head != queue
-      self.head = head.next
-      self.head.previous = nil
-    else
-      self.head = self.queue = nil
-    end
-    result.data
-  end
 end
 
 

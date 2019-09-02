@@ -45,6 +45,7 @@ class Deque
     self
   end
 
+
   def shift
     result = head
     if head != queue
