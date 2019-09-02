@@ -6,7 +6,7 @@ class BinarySearch
     raise ArgumentError unless data_sorted?(numbers_list)
 
     @list = numbers_list
-    init_bounds
+    reset_bounds
   end
 
   def middle
@@ -14,11 +14,7 @@ class BinarySearch
   end
 
   def search_for(target)
-    if median_value == target
-      result = middle
-      init_bounds
-      return result
-    end
+    return complete_search(middle) if median_value == target
     raise RuntimeError, 'Not Found' if upper_bound <= lower_bound
 
     if target > median_value
@@ -39,7 +35,12 @@ class BinarySearch
     list[middle]
   end
 
-  def init_bounds
+  def complete_search(result)
+    reset_bounds
+    result
+  end
+
+  def reset_bounds
     self.upper_bound = (list.length - 1)
     self.lower_bound = 0
   end
