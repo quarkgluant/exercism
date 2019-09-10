@@ -59,17 +59,17 @@ class Deque
 end
 
 
-  class Node
-    attr_reader :data
-    attr_accessor :next, :previous
+class Node
+  attr_reader :data
+  attr_accessor :next, :previous
 
-    def initialize(data)
-      @data = data
-      @next = nil
-      @previous = nil
-    end
-
-    def to_s
-      "#{previous&.data}->#{data}->#{@next&.data}"
-    end
+  def initialize(data)
+    @data = data
+    @next = nil
+    @previous = nil
   end
+
+  def to_s
+    "#{previous&.data}->#{data}->#{@next&.data}"
+  end
+end
